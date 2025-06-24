@@ -1,0 +1,124 @@
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #ffd6e8 0%, #e0f7fa 100%);
+      background-attachment: fixed;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Decorative cartoon elements */
+    .emoji-bg {
+      position: absolute;
+      width: 100px;
+      opacity: 0.2;
+      z-index: 0;
+    }
+
+    .emoji1 { top: 20px; left: 20px; }
+    .emoji2 { bottom: 30px; right: 40px; transform: rotate(-15deg); }
+    .emoji3 { top: 50%; left: -30px; transform: translateY(-50%); }
+    .emoji4 { top: 10%; right: 10%; transform: rotate(25deg); }
+
+    .app-container {
+      background: white;
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+      max-width: 700px;
+      width: 90%;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .landing-header h1 {
+      font-size: 2.5rem;
+      color: #ff4081;
+    }
+
+    .landing-header p {
+      color: #777;
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+    }
+
+    .overview {
+      margin-top: 2rem;
+    }
+
+    .overview h2 {
+      color: #ff4081;
+      font-size: 1.6rem;
+      margin-bottom: 1rem;
+    }
+
+    .overview p {
+      color: #555;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .overview ul {
+      list-style: none;
+      padding-left: 0;
+      margin-top: 1rem;
+    }
+
+    .overview ul li {
+      margin: 0.5rem 0;
+      font-size: 1rem;
+    }
+
+    .start-button {
+      margin-top: 2rem;
+      display: inline-block;
+      background: #ff4081;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border-radius: 50px;
+      font-size: 1.1rem;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    .start-button:hover {
+      background: #e91e63;
+    }
+  /* 👻 Floating Emoji Background Setup */
+.emoji-bg {
+  position: absolute;
+  width: 90px;
+  opacity: 0.15;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.emoji1 {
+  top: 20px;
+  left: 20px;
+}
+
+.emoji2 {
+  bottom: 30px;
+  right: 40px;
+  transform: rotate(-15deg);
+}
+
+.emoji3 {
+  top: 50%;
+  left: -30px;
+  transform: translateY(-50%);
+}
+
+.emoji4 {
+  top: 10%;
+  right: 10%;
+  transform: rotate(25deg);
+}
